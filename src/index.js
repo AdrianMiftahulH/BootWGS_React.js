@@ -5,11 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navigasi from './routes/partials/nav';
 
-// === cara 1 ===
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));  
 root.render(
   <React.StrictMode>
-    < Navigasi />
+    <Navigasi />
     <App />
   </React.StrictMode>
 );
