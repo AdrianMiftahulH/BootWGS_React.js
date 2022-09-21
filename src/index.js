@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navigasi from './routes/partials/nav';
-import Comment from './routes/comment'
+import Comment from './routes/H12/comment'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));  
 root.render(

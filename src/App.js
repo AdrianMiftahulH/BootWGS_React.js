@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import Comment from './routes/comment';
 
 
 function Kontak({nama, posisi}) {
