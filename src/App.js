@@ -1,19 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Comment from './routes/comment';
+
 
 function Kontak({nama, posisi}) {
-
-  return(<><p>nama : {nama}, posisi : {posisi}</p></>)
+  return(<><p>Nama : {nama}, Posisi : {posisi}</p></>)
 }
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="home">
       <header className="App-header">
-        <h1>Bootcamp batch 3</h1>
+        <h1>Bootcamp batch 39</h1>
         <p>Adrian Miftahul Haq</p>
-        <Kontak nama="Adri" posisi="peserta"/>
+        <Kontak nama="Adrian" posisi="peserta"/>
       </header>
     </div>
   );

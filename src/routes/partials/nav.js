@@ -1,19 +1,16 @@
 function Navigasi() {
     return (
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">React</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Contact</a>
-                    </div>
-                </div>
+        <div className="ui text menu container">
+            <h1 className="header item">React App</h1>
+            <div className="center aligned container">
+                <a className="active item" href="#home">
+                    Home
+                </a>
+                <a className="item" href="#comment">
+                    Contact
+                </a>
             </div>
-        </nav>
+        </div>
     );
 }
 
