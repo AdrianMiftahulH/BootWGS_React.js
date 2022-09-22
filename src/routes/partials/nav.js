@@ -7,7 +7,7 @@ function Navigasi() {
                     Home
                 </a>
                 <a className="item" href="#comment">
-                    Contact
+                    Comment
                 </a>
             </div>
         </div>

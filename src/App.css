@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+
 .App {
   text-align: center;
 }
@@ -6,6 +8,20 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+.title_web{
+  font-family: 'Inconsolata', monospace;
+  font-size: 75px;
+  font-weight: 900;
+}
+
+.App-header .Nama_lengkap{
+  font-size: 27px;
+}
+.App-header p{
+  font-size: 16px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
