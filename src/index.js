@@ -3,15 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Navigasi from './routes/partials/nav';
-import Comment from './routes/H12/comment'
+import Navigasi from './components/partials/nav';
+import Comment  from './pages/index'
+import DataComment from './data/comment';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));  
 root.render(
   <React.StrictMode>
     <Navigasi />
     <App />
-    <Comment />
+    <Comment DataComment={DataComment}/>
   </React.StrictMode>
 );
 
