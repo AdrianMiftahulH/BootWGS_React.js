@@ -6,7 +6,7 @@ function Navigasi() {
                 <a className="active item" href="/">
                     Home
                 </a>
-                <a className="item" href="/comment">
+                <a className="item" href="#comment">
                     Comment
                 </a>
             </div>
