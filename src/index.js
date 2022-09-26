@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navigasi from './components/partials/nav';
-import Comment  from './pages/index'
+import Comment  from './pages/H12 - Comment/index'
 import DataComment from './data/comment';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));  
