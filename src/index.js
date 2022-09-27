@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Navigasi from './components/partials/nav';
 import Comment  from './pages/H12 - Comment/index'
 import DataComment from './data/comment';
+import Form from './components/H16/form';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));  
 root.render(
@@ -13,6 +14,7 @@ root.render(
     <Navigasi />
     <App />
     <Comment DataComment={DataComment}/>
+    <Form />
   </React.StrictMode>
 );
 
