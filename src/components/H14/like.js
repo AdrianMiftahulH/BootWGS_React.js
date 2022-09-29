@@ -1,5 +1,5 @@
 import React from "react";
-import '../../assets/css/like.css'
+import './like.css'
 
 // Membuat Class Like
 class Like extends React.Component {

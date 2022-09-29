@@ -9,6 +9,9 @@ function Navigasi() {
                 <a className="item" href="#comment">
                     Comment
                 </a>
+                <a className="item" href="#searchimage">
+                    Image Search
+                </a>
             </div>
         </div>
     );

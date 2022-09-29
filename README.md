@@ -1,4 +1,4 @@
-# ========================= Pembelajaran ===========================
+# === Pembelajaran ===
 
 ### Pertemuan 12
 
@@ -14,14 +14,14 @@ Membuat Fitur Like, di buat menjadi component di import ke comment
 
 ### Pertemuan 15
 
-Membuat sebuah jam, di buat menjadi component di import ke app
--- Reference --
+Membuat sebuah jam, di buat menjadi component di import ke app.\
+-- Reference -- .\
 [Clock](https://id.reactjs.org/docs/state-and-lifecycle.html)
 
 ### Pertemuan 16
 
-Membuat sebuah Form dengan react
--- Reference --
+Membuat sebuah Form dengan react.\
+-- Reference -- .\
 [Form](https://github.com/facebook/create-react-app)
 
 # Getting Started with Create React App

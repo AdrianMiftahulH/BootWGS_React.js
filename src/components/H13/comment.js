@@ -1,6 +1,6 @@
 import React from "react";
 import Like from '../H14/like';
-import '../../assets/css/comment.css';
+import './comment.css';
 
 // Membuuat class comment
 class Comment extends React.Component {

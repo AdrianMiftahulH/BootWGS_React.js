@@ -7,6 +7,8 @@ import Navigasi from './components/partials/nav';
 import Comment  from './pages/H12 - Comment/index'
 import DataComment from './data/comment';
 import Form from './components/H16/form';
+import OutputImage from './components/H18/index';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));  
 root.render(
@@ -15,6 +17,7 @@ root.render(
     <App />
     <Comment DataComment={DataComment}/>
     <Form />
+    <OutputImage />
   </React.StrictMode>
 );
 
