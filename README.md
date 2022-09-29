@@ -24,6 +24,14 @@ Membuat sebuah Form dengan react.\
 -- Reference -- .\
 [Form](https://github.com/facebook/create-react-app)
 
+### Pertemuan 17 dan 18
+
+Belajar tentang Ref Dom\
+-- Reference -- .\
+[Ref DOM](https://reactjs.org/docs/refs-and-the-dom.html).\
+[Axios](https://www.npmjs.com/package/axios).\
+[Unsplash](https://unsplash.com/).\
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

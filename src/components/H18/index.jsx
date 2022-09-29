@@ -4,10 +4,12 @@ import SearchBar from './atoms/search';
 import axios from './axios';
 
 class OutputImage extends React.Component {
+    // Membuat image kosong
     state = { images: [] };
 
     onSearchSubmit = async (term) => {
         console.log(term)
+        // Membuat res dengan mengambil data api dari axios
         const response = await axios.get("/search/photos", {
             params: { query: term },
         });
