@@ -1,0 +1,25 @@
+.video-item {
+    display: flex !important;
+    flex-direction: row;
+    border-bottom: tomato;
+    padding: 10px 0px;
+    border-bottom: 1px solid black;
+}
+
+
+.video-item img {
+    width: 200px;
+    height: 125px;
+    cursor: pointer;
+    padding: 0px 5px;
+    object-fit: cover;
+}
+.content{
+    padding : 0px 10px;
+    cursor: pointer;
+}
+
+.video-item img:hover,
+.video-item .content:hover{
+    opacity: 0.8;
+}

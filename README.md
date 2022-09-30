@@ -30,7 +30,14 @@ Belajar tentang Ref Dom\
 -- Reference -- .\
 [Ref DOM](https://reactjs.org/docs/refs-and-the-dom.html).\
 [Axios](https://www.npmjs.com/package/axios).\
-[Unsplash](https://unsplash.com/).\
+[Unsplash](https://unsplash.com/).
+
+### Pertemuan 19
+
+Belajar tentang mengambil API youtube
+-- Reference --
+[API yt](https://console.cloud.google.com/)\
+[doc API](https://developers.google.com/youtube/v3/docs/)
 
 # Getting Started with Create React App
 

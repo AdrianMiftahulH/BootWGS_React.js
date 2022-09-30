@@ -12,6 +12,9 @@ function Navigasi() {
                 <a className="item" href="#searchimage">
                     Image Search
                 </a>
+                <a className="item" href="#searchvideo">
+                    Video Search
+                </a>
             </div>
         </div>
     );

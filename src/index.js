@@ -8,6 +8,7 @@ import Comment  from './pages/H12 - Comment/index'
 import DataComment from './data/comment';
 import Form from './components/H16/form';
 import OutputImage from './components/H18/index';
+import YoutubeList from './components/H19';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));  
@@ -18,6 +19,7 @@ root.render(
     <Comment DataComment={DataComment}/>
     <Form />
     <OutputImage />
+    <YoutubeList />
   </React.StrictMode>
 );
 

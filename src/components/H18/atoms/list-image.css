@@ -5,13 +5,13 @@
     grid-auto-rows: 1px;
 }
 
-img {
+.image_list {
     width: 250px;
     grid-row-end: span 2;
     transition: 1s;
     transform: scale(0.9);
 }
 
-img:hover{
+.image_list:hover{
     transform: scale(1);
 }
