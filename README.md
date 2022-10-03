@@ -15,19 +15,19 @@ Membuat Fitur Like, di buat menjadi component di import ke comment
 ### Pertemuan 15
 
 Membuat sebuah jam, di buat menjadi component di import ke app.\
--- Reference -- .\
+-- Reference -- \
 [Clock](https://id.reactjs.org/docs/state-and-lifecycle.html)
 
 ### Pertemuan 16
 
 Membuat sebuah Form dengan react.\
--- Reference -- .\
+-- Reference -- \
 [Form](https://github.com/facebook/create-react-app)
 
 ### Pertemuan 17 dan 18
 
 Belajar tentang Ref Dom\
--- Reference -- .\
+-- Reference -- \
 [Ref DOM](https://reactjs.org/docs/refs-and-the-dom.html).\
 [Axios](https://www.npmjs.com/package/axios).\
 [Unsplash](https://unsplash.com/).
@@ -35,9 +35,16 @@ Belajar tentang Ref Dom\
 ### Pertemuan 19
 
 Belajar tentang mengambil API youtube
--- Reference --
+-- Reference -- \
 [API yt](https://console.cloud.google.com/)\
 [doc API](https://developers.google.com/youtube/v3/docs/)
+
+### Pertemuan 20
+
+Belajar tentang HOOKS
+-- Reference --
+[hooks](https://id.reactjs.org/docs/hooks-intro.html)\
+[useEffect](https://id.reactjs.org/docs/hooks-effect.html)
 
 # Getting Started with Create React App
 

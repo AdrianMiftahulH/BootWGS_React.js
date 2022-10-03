@@ -2,7 +2,7 @@ import React from 'react'
 import './videoCard.css';
 const VideoDetail = ({ video }) => {
     if (!video) {
-        return (<div class="ui embed loading"><p>Loading</p></div>);
+        return (<div className="ui embed loading"><p>Loading</p></div>);
     }
 
     const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;

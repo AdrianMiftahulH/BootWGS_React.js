@@ -1,5 +1,6 @@
 import './App.css';
 import Clock from './components/H15/date'
+import TimeUseState from './components/H20/time';
 
 
 function Kontak({nama, mobile, email}) {
@@ -12,7 +13,7 @@ function App() {
       <header className="App-header">
         <h1 className="title_web">Bootcamp batch 3</h1>
         <p className="Nama_lengkap">Adrian Miftahul Haq</p>
-        <h1><Clock /></h1>
+        <h1><TimeUseState /></h1>
         <p>---- Contacts ----</p>
         <Kontak nama="Adrian" mobile="089656104174" email="adrianmiftahul@gmial.com"/>
         <Kontak nama="Sinta" mobile="081234643536" email="sinta123@gmial.com"/>
