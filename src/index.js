@@ -9,6 +9,7 @@ import DataComment from './data/comment';
 import Form from './components/H16/form';
 import OutputImage from './components/H18/index';
 import YoutubeList from './components/H19';
+import HookYt from './components/H21/hook';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));  
@@ -19,7 +20,7 @@ root.render(
     <Comment DataComment={DataComment}/>
     <Form />
     <OutputImage />
-    <YoutubeList />
+    <HookYt />
   </React.StrictMode>
 );
 

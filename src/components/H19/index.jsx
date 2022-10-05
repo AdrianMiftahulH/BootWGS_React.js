@@ -7,22 +7,27 @@ import Comment from '../H13/comment';
 import DataComment from '../../data/comment'
 
 class YoutubeList extends React.Component {
+    // membuat state video, video dipilih dengan kosong dan nul
     state = {
         videos: [],
         selectedVideo: null
     }
+    // f form di klik
     handleSubmit = async (termFromSearchBar) => {
+        // mengambil data api
         const response = await axios.get('/search', {
             params: {
                 q: termFromSearchBar
             }
         })
+        // menampilkan data 
         this.setState({
             videos: response.data.items
         })
         console.log(response)
     };
 
+    // f untuk menangani bila video di pilih
     handleVideosSelect = (video) => {
         this.setState({ selectedVideo: video })
     };

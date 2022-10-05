@@ -4,20 +4,21 @@ import React from "react";
 class Form extends React.Component {
     constructor(props){
         super(props);
+        // Membuat state dengan object name dan comment kosong
         this.state = { 
             name: "",
             comment: ""
         };
-
         this.handleChange = this.handleChange.bind(this);
         // this.handleChangeComment = this.handleChangeComment.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
     
+    
     handleChange(event) {
         this.setState({[event.target.name]: event.target.value});
     }
-    
+    // membuat function output bila input sudah di isi
     handleSubmit(event) {
         alert(`Terima kasih ${this.state.name}, telah Berkoment : ${this.state.comment}`);
         event.preventDefault();

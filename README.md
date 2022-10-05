@@ -42,9 +42,13 @@ Belajar tentang mengambil API youtube
 ### Pertemuan 20
 
 Belajar tentang HOOKS
--- Reference --
+-- Reference -- \
 [hooks](https://id.reactjs.org/docs/hooks-intro.html)\
 [useEffect](https://id.reactjs.org/docs/hooks-effect.html)
+
+### Pertemuan 21
+
+Membuat Yt clone dengan Hooks
 
 # Getting Started with Create React App
 

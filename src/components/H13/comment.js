@@ -4,8 +4,10 @@ import './comment.css';
 
 // Membuuat class comment
 class Comment extends React.Component {
+    // Membuat constructor 
     constructor({image, name, date, comment}) {
         super();
+        // Membuat state dengan object
         this.state = {
             image, 
             name, 

@@ -7,12 +7,14 @@ class OutputImage extends React.Component {
     // Membuat image kosong
     state = { images: [] };
 
+    // membuat f bila untuk mencari item di search
     onSearchSubmit = async (term) => {
         console.log(term)
         // Membuat res dengan mengambil data api dari axios
         const response = await axios.get("/search/photos", {
             params: { query: term },
         });
+        // Menampilkan data api
         this.setState({ images: response.data.results });
         console.log(response.data.results);
     }

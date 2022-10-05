@@ -10,8 +10,10 @@ class Like extends React.Component {
         };
     }
 
+    // Membuat function likeClick
     likeClick = ()  => {
         this.setState({
+            // Bila like di click menambah satu
             like: this.state.like + 1
         })
     }
