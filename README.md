@@ -34,21 +34,41 @@ Belajar tentang Ref Dom\
 
 ### Pertemuan 19
 
-Belajar tentang mengambil API youtube
+Belajar tentang mengambil API youtube \
 -- Reference -- \
 [API yt](https://console.cloud.google.com/)\
 [doc API](https://developers.google.com/youtube/v3/docs/)
 
 ### Pertemuan 20
 
-Belajar tentang HOOKS
+Belajar tentang HOOKS \
 -- Reference -- \
 [hooks](https://id.reactjs.org/docs/hooks-intro.html)\
 [useEffect](https://id.reactjs.org/docs/hooks-effect.html)
 
 ### Pertemuan 21
 
-Membuat Yt clone dengan Hooks
+Membuat Yt clone dengan Hooks \
+
+### Pertemuan 22
+
+Membuat Increment, decrement dan reset dengan redux
+
+### Pertemuan 23
+
+mempelajari redux async dengan mengambil api jsonplaceholder
+
+-- Reference -- \
+
+[API jsonPlaceholder](https://jsonplaceholder.typicode.com)
+
+### Pertemuan 24
+ Mempelajari React Final Form
+
+ --Reference -- \
+
+[React Final Form](https://final-form.org/react) \
+[Styled Components](https://styled-components.com/)
 
 # Getting Started with Create React App
 

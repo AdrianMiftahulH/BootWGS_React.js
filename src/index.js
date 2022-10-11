@@ -1,26 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Navigasi from './components/partials/nav';
-import Comment  from './pages/H12 - Comment/index'
-import DataComment from './data/comment';
-import Form from './components/H16/form';
-import OutputImage from './components/H18/index';
-import YoutubeList from './components/H19';
-import HookYt from './components/H21/hook';
+// import Navigasi from './components/partials/nav';
+// import Comment  from './pages/H12 - Comment/index'
+// import DataComment from './data/comment';
+// import Form from './components/H16/form';
+// import OutputImage from './components/H18/index';
+// import YoutubeList from './components/H19';
+// import HookYt from './components/H21/hook';
+// import App from './components/H23/App';
+import ReduxForm from './components/H24';
+// import IndexIncrement from './components/H22';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));  
 root.render(
   <React.StrictMode>
-    <Navigasi />
-    <App />
-    <Comment DataComment={DataComment}/>
-    <Form />
-    <OutputImage />
-    <HookYt />
+    <ReduxForm />
   </React.StrictMode>
 );
 
