@@ -21,11 +21,14 @@ const ReduxForm = () => {
         // mengambil f New 
         New(values)
         window.alert(JSON.stringify(values, 0, 2))
+        // menambil f addFrom dengan values
         addForms(values);
     }
 
+    // membuat f add, untuk menyimpan ke json
     const addForms = async (values) => {
         console.log(values)
+        // post ke json dengan axios
         let response = await axios.post('', values);
         setForm((form) => [response.data, ...form]);
     };
@@ -44,7 +47,6 @@ const ReduxForm = () => {
                 </a>
                 <Form
                     onSubmit={onSubmit}
-                    initialValues={{ stooge: 'larry', employed: false }}
                     render={({ handleSubmit, form, submitting, pristine, values }) => (
                         <form onSubmit={handleSubmit}>
                             <div>

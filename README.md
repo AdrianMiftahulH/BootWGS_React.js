@@ -78,6 +78,14 @@ Challenge React Final Form di hubungkan dengan redux \
 [Extensi Chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd) \
 [Npm Redux Toolkit](https://www.npmjs.com/package/redux-devtools-extension) \
 
+
+### Pertemuan 26
+Mempelajari RestApi dari file json dengan json Server \
+
+-- Reference -- \
+[npm Json-server](https://www.npmjs.com/package/json-server) \
+[freecodecamp](https://www.freecodecamp.org/news/how-to-consume-rest-apis-in-react/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
