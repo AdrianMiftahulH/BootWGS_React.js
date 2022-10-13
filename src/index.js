@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import IndexReduxForm from './components/H24';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -11,14 +12,13 @@ import reportWebVitals from './reportWebVitals';
 // import YoutubeList from './components/H19';
 // import HookYt from './components/H21/hook';
 // import App from './components/H23/App';
-import ReduxForm from './components/H24';
 // import IndexIncrement from './components/H22';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));  
 root.render(
   <React.StrictMode>
-    <ReduxForm />
+    <IndexReduxForm />
   </React.StrictMode>
 );
 

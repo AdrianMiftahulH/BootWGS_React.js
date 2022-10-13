@@ -56,19 +56,27 @@ Membuat Increment, decrement dan reset dengan redux
 
 ### Pertemuan 23
 
-mempelajari redux async dengan mengambil api jsonplaceholder
+mempelajari redux async dengan mengambil api jsonplaceholder \
 
 -- Reference -- \
 
 [API jsonPlaceholder](https://jsonplaceholder.typicode.com)
 
 ### Pertemuan 24
- Mempelajari React Final Form
+ Mempelajari React Final Form \
 
  --Reference -- \
 
 [React Final Form](https://final-form.org/react) \
 [Styled Components](https://styled-components.com/)
+
+### Pertemuan 25
+Challenge React Final Form di hubungkan dengan redux \
+
+-- reference -- \
+[Link Web Redux](https://redux-toolkit.js.org/) \
+[Extensi Chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd) \
+[Npm Redux Toolkit](https://www.npmjs.com/package/redux-devtools-extension) \
 
 # Getting Started with Create React App
 
