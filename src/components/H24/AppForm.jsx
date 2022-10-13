@@ -1,12 +1,13 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
-import React from 'react'
-
+import React, { useState, useEffect } from 'react';
 import Styles from './Styles'
 import { Form, Field } from 'react-final-form'
-import { useDispatch } from 'react-redux'
+import { useDispatch } from 'react-redux';
+import axios from './axios';
 
 const ReduxForm = () => {
     const dispatch = useDispatch()
+    const [form, setForm] = useState([]);
 
     // membuat f New yang terdapat dispatch dengan berisi type input, dan data sesuai data di isi
     const New = async (data) => {
@@ -15,13 +16,19 @@ const ReduxForm = () => {
 
     const sleep = ms => new Promise(resolve => setTimeout(resolve, ms))
 
-    const onSubmit = async values => {
+    const onSubmit = async (values) => {
         await sleep(300)
         // mengambil f New 
         New(values)
         window.alert(JSON.stringify(values, 0, 2))
+        addForms(values);
     }
 
+    const addForms = async (values) => {
+        console.log(values)
+        let response = await axios.post('', values);
+        setForm((form) => [response.data, ...form]);
+    };
 
     return (
         <div>
