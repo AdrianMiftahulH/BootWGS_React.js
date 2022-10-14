@@ -1,7 +1,7 @@
 import React from "react";
 
 // Membuat class Clock
-class Form extends React.Component {
+class FormForum extends React.Component {
     constructor(props){
         super(props);
         // Membuat state dengan object name dan comment kosong
@@ -48,4 +48,4 @@ class Form extends React.Component {
     }
 }
 
-export default Form;
+export default FormForum;

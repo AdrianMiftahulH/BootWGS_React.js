@@ -10,11 +10,11 @@ Membuat Fitur Comment
 
 ### Pertemuan 14
 
-Membuat Fitur Like, di buat menjadi component di import ke comment
+Membuat Fitur Like, di buat menjadi component di export ke comment
 
 ### Pertemuan 15
 
-Membuat sebuah jam, di buat menjadi component di import ke app.\
+Membuat sebuah jam, di buat menjadi component di export ke app.\
 -- Reference -- \
 [Clock](https://id.reactjs.org/docs/state-and-lifecycle.html)
 

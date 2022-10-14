@@ -22,7 +22,7 @@ class Like extends React.Component {
     render(){
         return (
             <div className="text">
-                <button onClick={this.likeClick}><i className="thumbs up icon"></i></button>
+                <button onClick={this.likeClick} className="act-like"><i className="thumbs up icon"></i></button>
                 <span className="text">{this.state.like}</span>
             </div>
         )

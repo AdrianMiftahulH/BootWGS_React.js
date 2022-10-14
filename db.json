@@ -18,6 +18,23 @@
       ],
       "notes": "test",
       "id": 4
+    },
+    {
+      "firstName": "dinda",
+      "employed": true,
+      "Education": "Master",
+      "expretise": [
+        "CSS"
+      ],
+      "Prefered": [
+        "Backend"
+      ],
+      "id": 5
+    },
+    {
+      "firstName": "ADRIAN",
+      "lastName": "MIFTAHUL HAQ",
+      "id": 6
     }
   ]
 }

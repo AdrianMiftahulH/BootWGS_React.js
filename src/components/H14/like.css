@@ -1,4 +1,4 @@
-button{
+.act-like{
     border: transparent;
     background-color: transparent;
     cursor:pointer;
@@ -8,9 +8,9 @@ button{
     border-radius: 50%;
 }
 
-button:hover{
+.act-like:hover{
     background-color: #ddd;
 }
-button:active{
+.act-like:active{
     background-color: rgb(223, 65, 65);
 }
